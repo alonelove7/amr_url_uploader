@@ -226,7 +226,7 @@ async def youtube_dl_call_back(bot, update):
                 if tg_send_type == "file":
                     img.resize((320, height))
                 else:
-                    img.resize((0, height))
+      
                 img.save(thumb_image_path, "JPEG")
             else:
                 thumb_image_path = None
