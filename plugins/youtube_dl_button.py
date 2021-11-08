@@ -216,8 +216,8 @@ async def youtube_dl_call_back(bot, update):
                 metadata = extractMetadata(createParser(thumb_image_path))
         
 
-                if metadata.has("height"):
-                    height = metadata.get("height")
+   
+
                 if tg_send_type == "vm":
                     height = width
                 Image.open(thumb_image_path).convert(
