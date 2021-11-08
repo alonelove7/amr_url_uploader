@@ -229,7 +229,7 @@ async def youtube_dl_call_back(bot, update):
       
 
            
-                thumb_image_path = None
+          
 
             start_time = time.time()
             if tg_send_type == "audio":
