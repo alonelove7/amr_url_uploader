@@ -1,7 +1,7 @@
 {
   "name": "AMR-Url_Uploader",
   "description": "An url uploader bot with permenent thumbnail support",
-  "keywords": [
+   "keywords": [
     "telegram",
     "bot",
     "files",
@@ -99,11 +99,11 @@
   }, {
     "url": "heroku/python"
   }],
-  "stack": "container",
+    "stack": "container",
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+        "size": "free"
     }
   }
 }
