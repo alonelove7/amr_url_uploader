@@ -232,7 +232,7 @@ async def youtube_dl_call_back(bot, update):
           
 
        
-            if tg_send_type == "audio":
+            
                 await update.message.reply_to_message.reply_chat_action("upload_audio")
                 await bot.send_audio(
                     chat_id=update.message.chat.id,
