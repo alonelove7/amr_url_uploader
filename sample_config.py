@@ -51,8 +51,8 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
 
-    # Sql Database url
-    #DB_URI = os.environ.get("DATABASE_URL", "")
+    Sql Database url
+    DB_URI = os.environ.get("DATABASE_URL", "")
 
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
