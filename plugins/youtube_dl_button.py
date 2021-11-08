@@ -227,8 +227,8 @@ async def youtube_dl_call_back(bot, update):
                     img.resize((320, height))
                 else:
       
-                img.save(thumb_image_path, "JPEG")
-            else:
+
+           
                 thumb_image_path = None
 
             start_time = time.time()
